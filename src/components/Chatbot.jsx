@@ -16,7 +16,7 @@ const BotFrame = ()=>{
   return(
   <div className='center-div'>
         <iframe
-          style={{ border: "none" }}
+          style={{ border: "none",}}
           srcDoc="<body><script src='https://cdn.botpress.cloud/webchat/v0/inject.js'></script>
             <script>
               window.botpressWebChat.init({

@@ -1,3 +1,6 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
 body {
     display: flex;
     justify-content: center;
@@ -29,4 +32,12 @@ body {
       align-items: center;
       text-align: center;
     }
+  }
+
+  .bpw-header-container {
+    color: #000000;
+  }
+
+  .bpw-chat-bubble-content {
+    background-color: #e7ef7b;
   }
