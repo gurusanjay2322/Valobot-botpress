@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .center-div {
+    width: 100vw;
+    height: 90vh;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .center-div {
+      height: 40vh;
+      width: 80vw;
+      border-radius: 15px;
+      padding: 5px;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  }
